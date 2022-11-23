@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  cursor: none;
+}
+
+.imageContainer{
+  text-align: center;
+}
+
+#titleContainer{
+  text-align: center;
+  z-index: 9999;
+}
+
+#title{
+  margin-top: 50px;
+  height: 15vh;
+}
+
+#b{
+  height:90vh;
+  width: 29vw;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  z-index: 999;
+  background: none;
+  border: none;
+}
+
+#head{
+  content:url('head.jpg');
+  position: absolute;
+  top:-10%;
+  left: -8%;
+  z-index: -1;
+}
+
+#click{
+  position: absolute;
+  left: 18%;
+  bottom: 15%;
+}
+
+#word{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 40px;
+}
+
+#videoContainer{
+  background: black;
+  text-align: center;
+}
+
+video{
+  margin:0;
+  cursor: auto;
+}
