@@ -23,7 +23,7 @@ function ChangeWord(){
   word.style.visibility = "visible";
   count++;
   if(count > 70){
-    let sourceName = 'word' + index + '.png';
+    let sourceName = '/word' + index + '.png';
     word.src = sourceName;
     index = (++index) % 5;
     count = 0;
